@@ -1,0 +1,250 @@
+@font-face{
+    font-family: 'BlenderPro-Bold';
+    src: url(../CyberMaster/font/BlenderPro-Bold.ttf);
+    src: local('BlenderPro-Bold'), url(../CyberMaster/font/BlenderPro-Bold.ttf);
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    font-family: 'BlenderPro-Bold';
+}
+.header_fixedcontener{
+    width: 920px;
+    margin: auto;
+}
+.fixedcontener{
+    width: 940px;
+    margin: auto;
+}
+.text{
+    padding-bottom: 10px;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    border-bottom: 4px solid;
+    border-image: url('../CyberMaster/img/border_white.svg') 30;
+}
+.text_a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+ul{
+    float: left;
+    list-style: none;
+}
+.border_menu{
+    width: 942px;
+    position: relative;
+}
+menu img{
+    bottom: 59px;
+    right: 92px;
+}
+header{
+    height: 70px;
+    background-color: #fff14a;
+}
+.logo{
+    width: 520px;
+    height: 55px;
+    margin: 0px 200px;
+}
+menu{
+    height: 50px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 49px solid  #fff14a;
+    margin: 0px;
+}
+nav{
+    position: relative;
+    bottom: 60px;
+}
+.nav_a{
+    margin: 0px 40px;
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+    border: none;
+    background: none;
+    font-family: 'BlenderPro-Bold';
+}
+.text_comment{
+    color: white;
+    font-size: 20px;
+}
+form{
+    margin: 50px auto;
+    width: 620px;
+    height: 555px;
+    background: #1ed9ef;
+    padding: 23px 30px;
+}
+.take_box_head{
+    margin: 0px;
+    text-align: center;
+    font-size: 26px;
+    border-bottom: 4px solid;
+    border-image: url(../CyberMaster/img/border.svg) 30;
+}
+label{
+    font-size: 24px;
+}
+input{
+    padding: 10px;
+    margin: 13px 0px;
+    width: 597px;
+    border: 2px solid black;
+    font-size: 18px;
+}
+.lab_desc::after{
+    content: ' (Не обязательно)';
+    color: #272727;
+    font-size: 14px;
+}
+textarea{
+    padding: 10px;
+    margin: 13px 0px;
+    width: 597px;
+    height: 200px;
+    border: 2px solid black;
+}
+.send_button{
+    width: 190px;
+    height: 36px;
+    font-size: 20px;
+    font-family: 'BlenderPro-Bold';
+    border: 2px solid black;
+}
+.send_button:hover{
+    background-color: black;
+    color: white;
+}
+.recommend_left{
+    float: left;
+    margin-right: 20px;
+}
+.recommend_right{
+    float: right;
+}
+.recommend_box{
+    width: 436px;
+    border: 2px solid white;
+    background:black;
+    margin: 50px 0px;
+    padding: 34px 10px;
+}
+.recommend_box p{
+    margin: 0px;
+    font-size: 20px;
+    color: white;
+    width: 283px;
+    padding-left: 90px;
+}
+.img_spec{
+    background: url('../CyberMaster/img/spec_white.svg') no-repeat;
+}
+.img_price{
+    background: url('../CyberMaster/img/price_white.svg') no-repeat;
+}
+.img_detal{
+    background: url('../CyberMaster/img/white.svg') no-repeat;
+}
+.img_tech{
+    background: url('../CyberMaster/img/techsupport_white.svg') no-repeat;
+}
+.recommend_box:hover{
+    background: white;
+}
+.recommend_box:hover p{
+    color: black;
+}
+.recommend_box:hover .img_spec{
+    background: url('../CyberMaster/img/spec.svg') no-repeat;
+}
+.recommend_box:hover .img_price{
+    background: url('../CyberMaster/img/price.svg') no-repeat;
+}
+.recommend_box:hover .img_detal{
+    background: url('../CyberMaster/img/detal.svg') no-repeat;
+}
+.recommend_box:hover .img_tech{
+    background: url('../CyberMaster/img/techsupport.svg') no-repeat;
+}
+.open_more{
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 49px solid  #fff14a;
+}
+.open_more img{
+    top: 84px;
+    right: 50px;
+    transform: rotate(180deg);
+}
+.details{
+    background: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 40px;
+    left: 400px;
+}
+.hide_footer{
+    display: none;
+    height: 244px;
+    background: #fff14a;
+    border-bottom: 4px solid;
+    border-image: url('../CyberMaster/img/border.svg') 30;
+}
+li{
+    margin: 15px;
+}
+.map{
+    margin-left: 5px;
+    float: left;
+    width: 320px;
+    height: 240px;
+    border: 2px solid black;
+}
+.footer_contacts{
+    float: right;
+    list-style: none;
+    padding-left: 30px;
+    text-align: right;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.vk{
+    font-size: 24px;
+    padding-right: 35px;
+    background: 115px url(../CyberMaster/img/vk.svg) no-repeat;
+}
+.tw{
+    font-size: 24px;
+    padding-right: 35px;
+    background: 82px url(../CyberMaster/img/tw.svg) no-repeat;
+}
+footer{
+    background: #fff14a;
+    height: 85px;
+}
+.footer_logo{
+    width: 250px;
+    height: 38px;
+}
+.number{
+    float: right;
+    margin: 0px;
+    text-align: right;
+}
+.rules{
+    color: #4f4f4f;
+    text-align: center;
+}

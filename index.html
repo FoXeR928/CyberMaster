@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberMaster</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <!--Задний фон диалогового окна-->
+    <div class="back_conteiner">
+        <!--Скрытое диалоговое окно-->
+        <dialog class="ask_window">
+            <!--Текст диалогового окна-->
+            <p class="ask">Хотите, чтобы ваши данные были увидены?</p>
+            <!--Ответы на вопрос-->
+            <button class="yes">ДА</button>
+            <button class="no">НЕТ</button>
+        </dialog>
+    </div>
+    <!--Верхняя часть сайта-->
+    <header>
+        <!--Разметка страницы-->
+        <div class="header_fixedcontener">
+            <!--Логотип-->
+            <img src="../CyberMaster/img/logo.svg" alt="Логотип" class="logo">
+            <!--Текст приветствия-->
+            <p class="left_header_text">Приветствую, самурай.<br>Если ты пришёл сюда, значит у тебя проблемы и нужна помощь с компьютером. Наши специалисты за небольшую плату с радость помогут тебе и починят твой компьютер.</p>
+            <!--Картинка к приветствию-->
+            <img src="../CyberMaster/img/img.jpg" alt="Работяга" class="photo">
+        </div>
+    </header>
+    <!--Разметка страницы для основы сайта-->
+    <div class="fixedcontener">
+        <!--Меню-->
+        <menu>
+            <!--Линия разграничения-->
+            <a href="#"><img src="../CyberMaster/img/border_menu.svg" alt="Линия" class="border_menu"></a>
+            <!--Ссылки меню-->
+            <nav>
+                <!--Кнопа разварачивающегося меню-->
+                <button class="nav_a">Услуги
+                    <!--Ссылки разворвчивающегося меню-->
+                    <nav class="servis_container">
+                        <!--Контейнеры ссылок-->
+                        <div class="servis_box">
+                            <a href="../CyberMaster/repair.html" class="text_a">Починка ПК</a>
+                        </div>
+                        <div class="servis_box">
+                            <a href="../CyberMaster/antifirus.html" class="text_a">Антивирус</a>
+                        </div>
+                        <div class="servis_box">
+                            <a href="../CyberMaster/program.html" class="text_a">Лицензионное ПО</a>
+                        </div>
+                        <div class="servis_box">
+                            <a href="../CyberMaster/consultation.html" class="text_a">Консультация</a>
+                        </div>
+                    </nav>
+                </button>
+                <a href="../CyberMaster/about.html" class="nav_a">О компании</a>
+                <a href="../CyberMaster/contacts.html" class="nav_a">Контакты</a>
+                <a href="../CyberMaster/reviews.html" class="nav_a">Отзывы</a>
+            </nav>
+        </menu>
+        <!--Основной контент сайта-->
+        <main>
+            <!--Заголовок рекомендаций-->
+            <h2 class="text">Причины выбрать именно нас</h2>
+            <!--Левые рекомендации-->
+            <article class="recommend_left">
+                <!--Контейнер рекомендаций-->
+                <section class="recommend_box">
+                    <!--Текст рекомендаций-->
+                    <p class="img_spec">Отличные специалиты с многолетним опытом</p>
+                </section>
+                <section class="recommend_box">
+                    <p class="img_price">Выгодные, а главное небольшие и приятные цены</p>
+                </section>
+            </article>
+            <!--Правые рекомендации-->
+            <article class="recommend_right">
+                <section class="recommend_box">
+                    <p class="img_detal">Качественные детали и лицензионное ПО</p>
+                </section>
+                <section class="recommend_box">
+                    <p class="img_tech">Приветливая и отзывчивая техподдержка</p>
+                </section>
+            </article>
+            <!--Заголовок вызовов-->
+            <h2 class="text">Для вызова специалиста позвоните по номеру 8(800)555-35-35 или заполните поля ниже</h2>
+            <!--Контейнер очереди вызовов-->
+            <div class="left_box">
+                <!--Заголовок контейнера-->
+                <h2 class="call_header">Очередь вызовов</h2>
+                <!--Контейнер вызовов-->
+                <article class="calls">
+                    <!--Вызов-->
+                    <section class="call">
+                        <!--Имя вызывающего-->
+                        <h3 class="call_name">Имя</h3>
+                        <!--Описание проблемы-->
+                        <p class="call_text">Проблема</p>
+                    </section>
+                    <section class="call">
+                        <h3 class="call_name">Кто-то</h3>
+                        <p class="call_text">Информация отсутствует или не известна</p>
+                    </section>
+                    <section class="call">
+                        <h3 class="call_name">Информация отсутствует или не известна</h3>
+                        <p class="call_text">Информация отсутствует или не известна</p>
+                    </section>
+                    <section class="call">
+                        <h3 class="call_name">Имя</h3>
+                        <p class="call_text">Не включается компьютер</p>
+                    </section>
+                    <section class="call">
+                        <h3 class="call_name">Информация отсутствует или не известна</h3>
+                        <p class="call_text">Информация отсутствует или не известна</p>
+                    </section>
+                </article>
+            </div>
+            <!--Контейнер отправки данных-->
+            <form action="post">
+                <!--Заголовок контейнера-->
+                <h2 class="take_box_head">Подать заявку</h2>
+                <!--Текст перед полем ввода-->
+                <label for="name">Имя</label>
+                <!--Поле ввода-->
+                <input class="name" type="text">
+                <!--Текст перед полем ввода-->
+                <label for="contacts">Контакты</label>
+                <!--Поле ввода-->
+                <input type="text" class="contacts">
+                <!--Текст перед полем ввода-->
+                <label for="description" class="lab_desc">Описание проблемы</label>
+                <!--Поле ввода-->
+                <textarea class=description></textarea>
+                <!--Кнопка отправки-->
+                <button class="send_button">Отправить</button>
+            </form>
+        </main>
+        <div class="open_more">
+            <!--Линия разграничения-->
+            <img src="../CyberMaster/img/border_menu.svg" alt="Линия" class="border_menu">
+            <!--Кнопка для разкрытия футера-->
+            <button class="details">
+                <!--Картинка кнопки-->
+                <img src="../CyberMaster/img/details.svg" alt="Указатель">
+            </button>
+        </div>
+        <!--Скрытый футер-->
+        <div class="hide_footer">
+            <!--Карта-->
+            <div class="map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad370f7457d217bded85246be035b9fd9e1b7721732eec8b699151866eef86d6b&amp;width=320&amp;height=240&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+            <!--Меню скрытого футера-->
+            <ul class="footer_nav">
+                <li><a href="../CyberMaster/repair.html" class="text_a">Починка ПК</a></li>
+                <li><a href="../CyberMaster/antifirus.html" class="text_a">Антивирус</a></li>
+                <li><a href="../CyberMaster/program.html" class="text_a">Лицензионное ПО</a></li>
+                <li><a href="../CyberMaster/consultation.html" class="text_a">Консультация</a></li>
+            </ul>
+            <ul class="footer_nav">
+                <li><a href="../CyberMaster/about.html" class="text_a">О компании</a></li>
+                <li><a href="../CyberMaster/reviews.html" class="text_a">Отзывы</a></li>
+            </ul>
+            <ul class="footer_contacts">
+                <li class="text_a">Наш адрес:<br>неизвестно где в Москве</li>
+                <li class="text_a">Наши Контакты:</li>
+                <li><a href="https://vk.com/" class="vk">Вконтакте</a></li>
+                <li><a href="https://twitter.com/" class="tw">Twitter</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Нижняя часть сайта-->
+    <footer>
+        <div class="header_fixedcontener">
+            <img src="../CyberMaster/img/logo.svg" alt="Логотип" class="footer_logo">
+            <p class="number">Горячая линия<br>8(800)555-35-35</p>
+            <p class="rules">Все права не защищены.</p>
+        </div>
+    </footer>            
+</body>
+</html>
